@@ -169,7 +169,7 @@ const Navbar: React.FC = () => {
           }
        } 
       `}</style>
-    );
+    )
 };
 
 export default Navbar;
