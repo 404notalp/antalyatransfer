@@ -74,7 +74,6 @@ const Navbar: React.FC = () => {
         }
     };
 
-
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-border py-3 px-4 md:px-8 flex items-center shadow-md">
        {/* Logo */}
