@@ -83,15 +83,18 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center md:items-end">
             <div className="mb-4 text-center md:text-right">
                  <h3 className="text-lg font-semibold text-white mb-3">{tFooter.contactInfo}</h3>
-                 <p className="text-muted-foreground text-sm mb-1">{tFooter.phoneNumber}</p>
+                 <p className="text-muted-foreground text-sm mb-1" dir='ltr'>{tFooter.phoneNumber}</p>
                  <p className="text-muted-foreground text-sm break-all">{tFooter.emailAddress}</p>
             </div>
              <div className="flex justify-center md:justify-end items-center space-x-4 mb-4">
                 <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
+                    <Instagram size={22} />
+                </Link>
+ {/* Removed TripAdvisor Icon Link */}
              </div>
             {/* Copyright */}
             <div className="text-center md:text-right text-muted-foreground text-xs">
-                © {new Date().getFullYear()} Antalya Greenway Transfer. {tFooter.allRightsReserved}
+                © {new Date().getFullYear()} Antalya Greenway Transfer. {tFooter.allRightsReserved}  All Rights Reserved
             </div>
         </div>
       </div>
