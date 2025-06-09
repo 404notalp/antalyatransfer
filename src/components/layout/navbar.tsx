@@ -161,7 +161,7 @@ const Navbar: React.FC = () => {
         {/* Add CSS variable for navbar height */}
       <style jsx global>{`
         :root {
-          --navbar-height: 95px;
+          --navbar-height: 95px; // Consider making this dynamic or using Tailwind JIT
         }
         @media (min-width: 768px) {
            :root {
@@ -169,7 +169,6 @@ const Navbar: React.FC = () => {
           }
        } 
       `}</style>
-    </nav>
     );
 };
 
