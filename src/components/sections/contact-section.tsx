@@ -1,4 +1,4 @@
-'use client';
+he'use client';
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail } from 'lucide-react';
@@ -26,7 +26,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className, id }) => {
     const emailAddress = 'antalyagreenwaytransfer@gmail.com'; // Replace with actual email
 
     const handleWhatsAppClick = () => {
-        const message = encodeURIComponent(t.whatsappMessage || 'Hello Algul Transfer, I would like to inquire about your services.'); // Use translated message or fallback
+        const message = encodeURIComponent(t.whatsappMessage || 'Hello Antalya Greenway Transfer, I would like to inquire about your services.'); // Use translated message or fallback
         window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
     };
 
@@ -64,7 +64,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className, id }) => {
             <a
               href={`tel:${phoneNumber}`}
               className="text-lg text-foreground/80 hover:text-primary transition-colors font-medium"
-              aria-label={`Call Algul Transfer at ${phoneNumber}`}
+              aria-label={`Call Antalya Greenway Transfer at ${phoneNumber}`}
             >
               {phoneNumber}
             </a>
@@ -81,7 +81,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className, id }) => {
              <a
               href={`mailto:${emailAddress}`}
               className="text-lg text-foreground/80 hover:text-primary transition-colors font-medium break-all" // Added break-all for long emails
-              aria-label={`Email Algul Transfer at ${emailAddress}`}
+              aria-label={`Email Antalya Greenway Transfer at ${emailAddress}`}
             >
               {emailAddress}
             </a>

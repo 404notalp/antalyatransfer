@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 // Replace with your actual domain
-const URL = 'https://algultransfer.com'
+const URL = 'https://antalyagreenwaytransfer.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Assuming a single page application for now

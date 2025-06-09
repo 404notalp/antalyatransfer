@@ -4,10 +4,10 @@ const LocalBusinessSchema = () => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Algul VIP Transfers",
+    "name": "Antalya Greenway Transfer",
     "image": "/images/logo.png", // Use logo from public/images
-    "@id": "https://algultransfer.com", // Replace with actual URL
-    "url": "https://algultransfer.com", // Replace with actual URL
+    "@id": "https://antalyagreenwaytransfer.com", // Replace with actual URL
+    "url": "https://antalyagreenwaytransfer.com", // Replace with actual URL
     "telephone": "+905052992298", // Updated phone number
     "email": "info@algultransfer.com", // Replace with actual email
     "priceRange": "€€", // Optional: Adjust based on pricing (e.g., €, €€, €€€)
@@ -24,7 +24,7 @@ const LocalBusinessSchema = () => {
       "latitude": 36.8969, // Replace with actual latitude
       "longitude": 30.7133 // Replace with actual longitude
     },
-    "description": "Algul Transfer offers luxury VIP transfer services in Antalya, Turkey, specializing in airport transfers, private city tours, and custom routes with a fleet of Mercedes Vito vehicles.",
+    "description": "Antalya Greenway Transfer offers luxury VIP transfer services in Antalya, Turkey, specializing in airport transfers, private city tours, and custom routes with a fleet of Mercedes Vito vehicles.",
     "openingHoursSpecification": [ // Optional: Specify if applicable
       {
         "@type": "OpeningHoursSpecification",
@@ -42,9 +42,9 @@ const LocalBusinessSchema = () => {
       }
     ],
     "sameAs": [ // Add social media links
-      "https://www.facebook.com/algultransfer", // Replace with actual FB link
-      "https://www.instagram.com/algultransfer", // Replace with actual IG link
-      "https://www.tripadvisor.com/Profile/algultransfer" // Replace with actual TripAdvisor link
+      "https://www.facebook.com/antalyagreenwaytransfer", // Replace with actual FB link
+      "https://www.instagram.com/antalyagreenwaytransfer", // Replace with actual IG link
+      "https://www.tripadvisor.com/Profile/antalyagreenwaytransfer" // Replace with actual TripAdvisor link
     ],
     "potentialAction": {
       "@type": "ReserveAction",
@@ -52,7 +52,7 @@ const LocalBusinessSchema = () => {
         "@type": "EntryPoint",
         "urlTemplate": "https://wa.me/905052992298?text=Hello%20Algul%20Transfer,%20I%20would%20like%20to%20book%20a%20VIP%20transfer.", // Updated phone number and message
         "inLanguage": "en",
-        "actionPlatform": [
+        "actionPlatform": [ 
           "http://schema.org/DesktopWebPlatform",
           "http://schema.org/IOSPlatform",
           "http://schema.org/AndroidPlatform"

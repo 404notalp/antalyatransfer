@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
   const phoneNumber = '+905052992298'; // Updated phone number
 
   const handleBookNowClick = () => {
-    const message = encodeURIComponent(t.hero.bookNowMessage || 'Hello Algul Transfer, I would like to book a VIP transfer.'); // Use translated message or fallback
+    const message = encodeURIComponent(t.hero.bookNowMessage || 'Hello Antalya Greenway Transfer, I would like to book a VIP transfer.'); // Use translated message or fallback
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 

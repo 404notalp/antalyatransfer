@@ -1,4 +1,4 @@
-# **App Name**: Algul VIP Transfers
+# **App Name**: Antalya Greenway VIP Transfers
 
 ## Core Features:
 
@@ -19,7 +19,7 @@
 ## Original User Request:
 Build a luxury, elegant and clean static website for "Algul Transfer", a VIP transfer service based in Antalya, Turkey.
 
-Tech Stack: Vite + React + TypeScript + TailwindCSS (shadcn/ui component library recommended).
+Tech Stack: Vite + React + TypeScript + TailwindCSS (shadcn/ui component library recommended).antalyagreenwaytransfer
 
 Design Goals:
 
@@ -92,16 +92,16 @@ Contact Section Large Contact Info Blocks:
 
 WhatsApp Chat (red button, bottom right floating for mobile too).
 
-Call Us: +90 123 456 7890
+Call Us: +90 505 299 22 98
 
-Email: info@algultransfer.com
+Email: antalyagreenwaytransfer@gmail.com
 
 "Available 24/7 for your transportation needs." statement.
 
-Footer Repeat social links: Instagram, Facebook, TripAdvisor.
+Footer Repeat social links: Instagram, Facebook, TripAdvisor. Contact info.
 Include minimalistic copyright:
 
-© 2025 Algul Transfer. All Rights Reserved.
+© 2025 Antalya Greenway Transfer. All Rights Reserved.
 
 Micro-animations (fade-in on scroll).
 

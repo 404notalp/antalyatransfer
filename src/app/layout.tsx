@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Antalya Greenway Transfer | Luxury VIP Transfer Service in Antalya',
-  description: 'Experience unparalleled luxury and comfort with Antalya Greenway Transfer, your premier VIP transfer service in Antalya, Turkey. Specializing in airport transfers, city tours, and custom routes with our Mercedes Vito fleet.',
+  title: 'Antalya Greenway Transfer | Luxury VIP Transfer Service in Antalya', // Changed "Algul Transfer" to "Antalya Greenway Transfer"
+  description: 'Experience unparalleled luxury and comfort with Antalya Greenway Transfer, your premier VIP transfer service in Antalya, Turkey. Specializing in airport transfers, city tours, and custom routes with our Mercedes Vito fleet.', // Changed "Algul Transfer" to "Antalya Greenway Transfer"
     icons: { // Add favicon link here
      icon: '/favicon.ico',
     },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       title: 'Antalya Greenway Transfer | Luxury VIP Transfer Service in Antalya',
       description: 'Experience unparalleled luxury and comfort with Antalya Greenway Transfer, your premier VIP transfer service in Antalya, Turkey. Specializing in airport transfers, city tours, and custom routes with our Mercedes Vito fleet.',
       url: 'https://antalyagreenwaytransfer.com', // Replace with actual URL
-      siteName: 'Antalya Greenway Transfer',
+      siteName: 'Antalya Greenway Transfer', // Changed "Algul Transfer" to "Antalya Greenway Transfer"
       images: [
           {
                url: '/logo.webp', // Replace with actual OG image URL (use absolute URL in production)
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     // Add other meta tags if needed (e.g., Twitter cards)
   twitter: {
     card: 'summary_large_image',
-    title: 'Antalya Greenway Transfer | Luxury VIP Transfer Service in Antalya',
+    title: 'Antalya Greenway Transfer | Luxury VIP Transfer Service in Antalya', // Changed "Algul Transfer" to "Antalya Greenway Transfer"
     description: 'Premier VIP transfers in Antalya. Book your luxury Mercedes Vito ride today!',
      images: ['/logo.webp'], // Replace with actual image URL (use absolute URL in production)
     // site: '@yourTwitterHandle', // Optional: Add Twitter handle
