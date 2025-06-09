@@ -1,3 +1,4 @@
+
 'use client';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -74,6 +75,7 @@ const Navbar: React.FC = () => {
         }
     };
 
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-border py-3 px-4 md:px-8 flex items-center shadow-md">
        {/* Logo */}
@@ -105,9 +107,9 @@ const Navbar: React.FC = () => {
 
       {/* Desktop Right Side - Social, Lang, Book Now */}
       <div className="hidden md:flex items-center space-x-4">
-        <Link href="http://instagram.com/greenwaytransfer/" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
+        <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
           <Instagram size={20} />
-
+        </Link>
         {/* TripAdvisor icon removed */}
         <LanguageSwitcher />
         <Button
@@ -151,7 +153,7 @@ const Navbar: React.FC = () => {
            <Link href="/#pricing" onClick={(e) => handleNavLinkClick(e, '/#pricing')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{tNavbar.pricing}</Link> {/* Mobile Pricing Link */}
            <Link href="/#contact" onClick={(e) => handleNavLinkClick(e, '/#contact')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{tNavbar.contact}</Link>
             <div className="flex justify-center space-x-6 pt-4 border-t border-border mt-4">
-                <Link href="http://instagram.com/greenwaytransfer/" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
+                <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
                     <Instagram size={24} />
                 </Link>
                 {/* TripAdvisor icon removed */}
@@ -161,7 +163,7 @@ const Navbar: React.FC = () => {
         {/* Add CSS variable for navbar height */}
       <style jsx global>{`
         :root {
-          --navbar-height: 95px; // Consider making this dynamic or using Tailwind JIT
+          --navbar-height: 95px;
         }
         @media (min-width: 768px) {
            :root {
@@ -169,7 +171,8 @@ const Navbar: React.FC = () => {
           }
        } 
       `}</style>
-    )
+    </nav>
+    );
 };
 
 export default Navbar;
