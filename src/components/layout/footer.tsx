@@ -88,9 +88,6 @@ const Footer: React.FC = () => {
             </div>
              <div className="flex justify-center md:justify-end items-center space-x-4 mb-4">
                 <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
-                    <Instagram size={22} />
-                </Link>
- {/* Removed TripAdvisor Icon Link */}
              </div>
             {/* Copyright */}
             <div className="text-center md:text-right text-muted-foreground text-xs">

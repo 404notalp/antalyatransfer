@@ -42,8 +42,7 @@ const LocalBusinessSchema = () => {
       }
     ],
     "sameAs": [ // Add social media links
-      "https://www.facebook.com/antalyagreenwaytransfer", // Replace with actual FB link
-      "https://www.instagram.com/antalyagreenwaytransfer", // Replace with actual IG link
+      "https://www.instagram.com/greenwaytransfer/", // Replace with actual IG link
       "https://www.tripadvisor.com/Profile/antalyagreenwaytransfer" // Replace with actual TripAdvisor link,
     ],
     "potentialAction": {
