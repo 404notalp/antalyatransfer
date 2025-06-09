@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
       <div className="hidden md:flex items-center space-x-4">
         <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
           <Instagram size={20} />
-        </Link>
+
         {/* TripAdvisor icon removed */}
         <LanguageSwitcher />
         <Button
