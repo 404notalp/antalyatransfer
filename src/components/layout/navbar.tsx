@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
 
       {/* Desktop Right Side - Social, Lang, Book Now */}
       <div className="hidden md:flex items-center space-x-4">
-        <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
+        <Link href="https://www.instagram.com/greenwaytransfer" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
           <Instagram size={20} />
         </Link>
         {/* TripAdvisor icon removed */}
@@ -153,7 +153,7 @@ const Navbar: React.FC = () => {
            <Link href="/#pricing" onClick={(e) => handleNavLinkClick(e, '/#pricing')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{tNavbar.pricing}</Link> {/* Mobile Pricing Link */}
            <Link href="/#contact" onClick={(e) => handleNavLinkClick(e, '/#contact')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{tNavbar.contact}</Link>
             <div className="flex justify-center space-x-6 pt-4 border-t border-border mt-4">
-                <Link href="https://www.instagram.com/antalyagreenway" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
+                <Link href="https://www.instagram.com/greenwaytransfer" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
                     <Instagram size={24} />
                 </Link>
                 {/* TripAdvisor icon removed */}
