@@ -105,6 +105,15 @@ const Navbar: React.FC = () => {
          <Link href="/#contact" onClick={(e) => handleNavLinkClick(e, '/#contact')} className="text-foreground hover:text-primary transition-colors">{tNavbar.contact}</Link>
       </div>
 
+      {/* Google Reviews Button (Desktop) */}
+      <div className="hidden md:flex items-center">
+        <Link href="https://g.page/r/Caae78QxRfxFEBM/review" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" size="sm" className="font-semibold">
+            Google Reviews
+          </Button>
+        </Link>
+      </div>
+
       {/* Desktop Right Side - Social, Lang, Book Now */}
       <div className="hidden md:flex items-center space-x-4">
         <Link href="https://www.instagram.com/greenwaytransfer" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
@@ -124,7 +133,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Mobile Menu Button & Lang */}
-      <div className="md:hidden flex items-center space-x-2">
+      <div className="md:hidden flex items-center space-x-2 ml-auto">
          <LanguageSwitcher />
 
         <Button
@@ -152,6 +161,14 @@ const Navbar: React.FC = () => {
            <Link href="/#vehicles" onClick={(e) => handleNavLinkClick(e, '/#vehicles')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{vehicleLinkText}</Link> {/* Mobile Vehicles Link */}
            <Link href="/#pricing" onClick={(e) => handleNavLinkClick(e, '/#pricing')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{tNavbar.pricing}</Link> {/* Mobile Pricing Link */}
            <Link href="/#contact" onClick={(e) => handleNavLinkClick(e, '/#contact')} className="text-foreground hover:text-primary transition-colors block text-center py-2">{tNavbar.contact}</Link>
+
+           {/* Google Reviews Button (Mobile) */}
+           <Link href="https://g.page/r/Caae78QxRfxFEBM/review" target="_blank" rel="noopener noreferrer" className="block text-center py-2">
+             <Button variant="outline" size="sm" className="font-semibold w-full">
+               Google Reviews
+             </Button>
+           </Link>
+
             <div className="flex justify-center space-x-6 pt-4 border-t border-border mt-4">
                 <Link href="https://www.instagram.com/greenwaytransfer" target="_blank" rel="noopener noreferrer" aria-label="Antalya Greenway Transfer on Instagram" className="text-foreground hover:text-primary transition-colors">
                     <Instagram size={24} />

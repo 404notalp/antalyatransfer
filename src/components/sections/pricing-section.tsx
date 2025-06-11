@@ -76,9 +76,7 @@ const PricingSection: React.FC<PricingSectionProps> = ({ className, id }) => {
                 <TableBody className="divide-y divide-border">
                 {data.map((route, index) => (
                     <TableRow key={index} className="hover:bg-muted/50 transition-colors">
-                    <TableCell className="px-4 py-4 whitespace-nowrap text-sm font-medium text-foreground">{route.bolge}</TableCell>
-                    <TableCell className="px-4 py-4 whitespace-nowrap text-sm text-foreground">€{route.gidis}</TableCell> {/* Display gidis price */}
-                    <TableCell className="px-4 py-4 whitespace-nowrap text-sm text-foreground text-right font-semibold">€{route.gidisDonus}</TableCell> {/* Display gidisDonus price */}
+ <TableCell className="px-4 py-4 whitespace-nowrap text-sm font-medium text-foreground">{route.bolge}</TableCell><TableCell className="px-4 py-4 whitespace-nowrap text-sm text-foreground">€{route.gidis}</TableCell>{/* Display gidis price */}<TableCell className="px-4 py-4 whitespace-nowrap text-sm text-foreground text-right font-semibold">€{route.gidisDonus}</TableCell>{/* Display gidisDonus price */}
                     </TableRow>
                 ))}
                 </TableBody>

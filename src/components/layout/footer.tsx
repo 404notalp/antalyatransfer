@@ -17,6 +17,10 @@ const Footer: React.FC = () => {
   // Use the helper function to get the vehicle link text
   const vehicleLinkText = tNavbar.vehicles; // Get "Vehicles" translation from navbar object
 
+  const googleReviewsLink = 'https://g.page/r/Caae78QxRfxFEBM/review';
+
+
+
    const handleNavLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
          // If it's an external link or a full page link, let default behavior handle it
          if (!href.startsWith('#')) {
@@ -92,6 +96,15 @@ const Footer: React.FC = () => {
                 </Link>
  {/* Removed TripAdvisor Icon Link */}
              </div>
+
+             {/* Google Reviews Button */}
+             <div className="flex justify-center md:justify-end mt-4">
+                <a href={googleReviewsLink} target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                   Google Reviews
+                </a>
+             </div>
+
+
             {/* Copyright */}
             <div className="text-center md:text-right text-muted-foreground text-xs">
                 © {new Date().getFullYear()} Antalya Greenway Transfer. {tFooter.allRightsReserved}  All Rights Reserved
